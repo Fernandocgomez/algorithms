@@ -15,3 +15,4 @@ console.log(duplicateCount("Indivisibilities")) // 2
 // return the n of repeted characters
 
 // /([^])\1+/g  chracters that repete but that are toghter 
+
