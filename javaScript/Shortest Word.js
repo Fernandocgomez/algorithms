@@ -15,6 +15,7 @@ function findShortFernando(s){
         }
         i+= 1
     }
+    
     return shortest
 }
 
