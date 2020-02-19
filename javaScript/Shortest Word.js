@@ -15,9 +15,7 @@ function findShortFernando(s){
         }
         i+= 1
     }
-
     return shortest
-
 }
 
 // Dividir la frase en palabras individuales dentro de un array
