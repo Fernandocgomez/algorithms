@@ -17,6 +17,7 @@ end
 # sort the array
 # while loop to check the first element and subtract the next one and save the different in an arry
 # apply the max method to the arr
+# best solution numbers.sort.each_cons(2).map{|a,b| b-a}.max
 
 p max_gap([13,10,2,9,5]) # =>,4)
 p max_gap([13,3,5]) # =>,8)
