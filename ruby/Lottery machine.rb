@@ -19,6 +19,10 @@ def lottery(str)
  #   string[0]
      
 end
+    
+else
+    
+end
 
 def lottery2 
     answer = str.gsub(/\D/, '').squeeze
