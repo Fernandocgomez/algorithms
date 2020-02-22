@@ -1,5 +1,8 @@
 def calculate_damage(your_type, opponent_type, attack, defense)
     effectiveness = 0
+    if your_type == opponent_type
+        effectiveness = 0.5
+    end
     if your_type == 'fire'
         if opponent_type == 'grass'
             effectiveness = 2 
@@ -10,17 +13,11 @@ def calculate_damage(your_type, opponent_type, attack, defense)
         if opponent_type == 'electric'
             effectiveness = 1
         end
-        if opponent_type == 'fire'
-            effectiveness = 0.5
-        end
     end
 
     if your_type == 'water'
         if opponent_type == 'grass'
             effectiveness = 0.5
-        end
-        if opponent_type == 'water'
-            effectiveness = 0.5 
         end
         if opponent_type == 'electric'
             effectiveness = 0.5
@@ -31,9 +28,6 @@ def calculate_damage(your_type, opponent_type, attack, defense)
     end
 
     if your_type == 'grass'
-        if opponent_type == 'grass'
-            effectiveness = 0.5
-        end
         if opponent_type == 'water'
             effectiveness = 2
         end
@@ -51,9 +45,6 @@ def calculate_damage(your_type, opponent_type, attack, defense)
         end
         if opponent_type == 'water'
             effectiveness = 2
-        end
-        if opponent_type == 'electric'
-            effectiveness = 0.5
         end
         if opponent_type == 'fire'
             effectiveness = 1
