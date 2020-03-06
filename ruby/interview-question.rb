@@ -26,7 +26,7 @@ result = arr.min { |obj| obj[:distance] }
 p result
 
 #  return the salsa event closest to you. 
-#  this was my first answer 
+#  this was my second answer 
 #  time complexity = O(n)
 arr_b = [
     {
